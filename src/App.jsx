@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Header, Hero, About } from './components/index'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1 className="text-blue-600 font-bold text-6xl text-center">React + Tailwindcss</h1>
-    </div>
+    <>
+      <Header />
+      <main className='grid content-center justify-center'>
+        <Hero />
+        <About />
+      </main>
+    </>
   )
 }
 

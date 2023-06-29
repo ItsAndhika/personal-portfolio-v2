@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        outline: none;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: black;
+        color: white;
+        overflow-x: hidden;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-primary
+    }
+}
+
+@layer utilities {
+    .font-montserrat {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .font-open-sans {
+        font-family: 'Open Sans', sans-serif;
+    }
+}
