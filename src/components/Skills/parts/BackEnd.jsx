@@ -9,32 +9,32 @@ import MongoDB from '/assets/svg/mongodb.svg'
 const BackEnd = () => {
   return (
     <>
-        <div className="skill-card">
+        <div className="skill-card" data-aos="fade-up"  data-aos-easing='ease-in-out' data-aos-once='true' data-aos-duration='1000'>
             <img src={PHP} alt="PHP" className='w-14 mx-auto 2xl:w-20' />
             <h4 className='text-lg font-semibold my-1'>PHP</h4>
             <h6 className='text-base font-medium'>Intermediate</h6>
         </div>
-        <div className="skill-card">
+        <div className="skill-card" data-aos="fade-up"  data-aos-easing='ease-in-out' data-aos-once='true' data-aos-duration='1000'>
             <img src={Node} alt="Node" className='w-12 mx-auto 2xl:w-20' />
             <h4 className='text-lg font-semibold my-1'>Node</h4>
             <h6 className='text-base font-medium'>Beginner</h6>
         </div>
-        <div className="skill-card">
+        <div className="skill-card" data-aos="fade-up"  data-aos-easing='ease-in-out' data-aos-once='true' data-aos-duration='1000'>
             <img src={Laravel} alt="Laravel" className='w-12 mx-auto 2xl:w-20' />
             <h4 className='text-lg font-semibold my-1'>Laravel</h4>
             <h6 className='text-base font-medium'>Beginner</h6>
         </div>
-        <div className="skill-card">
+        <div className="skill-card" data-aos="fade-up"  data-aos-easing='ease-in-out' data-aos-once='true' data-aos-duration='1000'>
             <img src={MySQL} alt="MySQL" className='w-16 mx-auto 2xl:w-24' />
             <h4 className='text-lg font-semibold my-1'>MySQL</h4>
             <h6 className='text-base font-medium'>Intermediate</h6>
         </div>
-        <div className="skill-card">
+        <div className="skill-card" data-aos="fade-up"  data-aos-easing='ease-in-out' data-aos-once='true' data-aos-duration='1000'>
             <img src={PostgreSQL} alt="PostgreSQL" className='w-14 mx-auto 2xl:w-20' />
             <h4 className='text-lg font-semibold my-1'>PostgreSQL</h4>
             <h6 className='text-base font-medium'>Beginner</h6>
         </div>
-        <div className="skill-card">
+        <div className="skill-card" data-aos="fade-up"  data-aos-easing='ease-in-out' data-aos-once='true' data-aos-duration='1000'>
             <img src={MongoDB} alt="MongoDB" className='w-16 mx-auto 2xl:w-24' />
             <h4 className='text-lg font-semibold my-1'>MongoDB</h4>
             <h6 className='text-base font-medium'>Beginner</h6>
