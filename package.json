@@ -1,6 +1,6 @@
 {
-  "name": "raw-react-tailwind",
-  "version": "0.0.0",
+  "name": "portfolio-rimananda",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,7 @@
     "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-typed": "^1.2.0"
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
