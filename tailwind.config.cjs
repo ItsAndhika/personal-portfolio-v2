@@ -12,13 +12,10 @@ module.exports = {
     extend: {
       colors: {
         'primary': 'hsl(38, 61%, 73%)',
-        'secondary': 'hsl(38, 61%, 55%)'
+        'secondary': 'hsl(38, 61%, 55%)',
       },
       boxShadow: {
-        'gold-glow': '0 0 30px 1px hsl(38, 61%, 73%)'
-      },
-      dropShadow: {
-        'gold-glow': '0 0 30px hsl(38, 61%, 73%)'
+        'gold-glow': '0 0 30px 1px hsl(38, 61%, 73%)',
       },
       animation: {
         'shadow-pulse': 'shadowPulse 700ms ease-in-out alternate infinite'

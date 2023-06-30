@@ -45,6 +45,24 @@
     }
 }
 
+@layer components {
+    .text-gold-glow {
+        text-shadow: 0 0 20px hsl(38, 61%, 73%), 0 0 20px hsl(38, 61%, 73%);
+    }
+
+    .nav-link {
+        @apply ml-10 text-base transition duration-300 ease-in-out hover:text-primary hover:text-gold-glow xl:text-lg 2xl:text-xl;
+    }
+
+    .skill-card {
+        @apply w-8/12 h-max p-5 mx-auto text-center bg-neutral-900 border border-primary rounded-lg cursor-pointer transition duration-300 ease-in-out hover:shadow-gold-glow md:w-8/12
+    }
+
+    .form-input {
+        @apply w-9/12 mx-auto my-5 bg-transparent px-3 py-2 ring ring-secondary placeholder:text-slate-100 focus:outline-none focus:shadow-gold-glow lg:w-1/2 lg:h-12 2xl:h-20 2xl:placeholder:text-3xl 2xl:text-3xl
+    }
+}
+
 @layer utilities {
     .font-montserrat {
         font-family: 'Montserrat', sans-serif;

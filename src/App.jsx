@@ -1,4 +1,4 @@
-import { Header, Hero, About } from './components/index'
+import { Header, Hero, About, Skills, Contact, Footer } from './components/index'
 
 const App = () => {
   return (
@@ -7,7 +7,10 @@ const App = () => {
       <main className='grid content-center justify-center'>
         <Hero />
         <About />
+        <Skills />
+        <Contact />
       </main>
+      <Footer />
     </>
   )
 }
