@@ -12,7 +12,7 @@ const Header = () => {
     }, [isActive])
   return (
     <>
-    <header className='fixed w-screen py-5 z-10 bg-transparent backdrop-blur-md md:py-10'>
+    <header className='fixed w-screen max-w-screen py-5 z-10 bg-transparent backdrop-blur-md md:py-10'>
         <div className="container flex justify-between items-center sm:px-5 xl:px-16">
             <a href="#" className="text-xl font-bold font-montserrat text-primary self-start">PA</a>
             <nav>
