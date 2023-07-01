@@ -12,9 +12,9 @@ const Header = () => {
     }, [isActive])
   return (
     <>
-    <header className='fixed left-0 right-0 py-5 z-10 bg-transparent backdrop-blur-md md:py-10'>
+    <header className='fixed w-screen py-5 z-10 bg-transparent backdrop-blur-md md:py-10'>
         <div className="container flex justify-between items-center sm:px-5 xl:px-16">
-            <a href="#" className="text-xl font-bold font-montserrat text-primary">PA</a>
+            <a href="#" className="text-xl font-bold font-montserrat text-primary self-start">PA</a>
             <nav>
                 <ul className='hidden text-3xl md:flex'>
                     <li className='nav-link'><a href="#">Home</a></li>
@@ -22,7 +22,7 @@ const Header = () => {
                     <li className='nav-link'><a href="#skills">Skills</a></li>
                     <li className='nav-link'><a href="#contact">Contact</a></li>
                 </ul>
-                <div className={`${isActive ? 'nav-active' : ''} group w-6 h-4 flex flex-col justify-between items-center cursor-pointer md:hidden`} onClick={() => setIsActive(prev => !prev)}>
+                <div className={`self-end group w-6 h-4 flex flex-col justify-between items-center cursor-pointer md:hidden`} onClick={() => setIsActive(prev => !prev)}>
                     <span className='bg-white w-2/3 h-[2px] origin-right transition duration-300 ease-in-out group-hover:bg-primary'></span>
                     <span className='bg-white w-full h-[2px] origin-right transition duration-300 ease-in-out group-hover:bg-primary'></span>
                     <span className='bg-white w-1/2 h-[2px] origin-right transition duration-300 ease-in-out group-hover:bg-primary'></span>

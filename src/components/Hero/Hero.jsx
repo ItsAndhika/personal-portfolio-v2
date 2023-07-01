@@ -22,7 +22,7 @@ const Hero = () => {
                         loop: true
                     }}
                 />
-                <h4 className='mt-3 mb-5 max-w-lg text-base lg:text-xl lg:mb-10 2xl:text-2xl'>A 15 years old Junior Web Developer who wants to be a better person everyday by learn anything that i like.</h4>
+                <p className='mt-3 mb-5 max-w-lg text-base lg:text-xl lg:mb-10 2xl:text-2xl'>A 15 years old Junior Web Developer who wants to be a better person everyday by learn anything that i like.</p>
                 <a href='#contact' className='w-max px-5 py-2 bg-primary text-slate-900 rounded-full shadow-gold-glow animate-shadow-pulse transition duration-300 ease-in-out hover:bg-secondary lg:px-8 lg:py-5'>Contact Me</a>
             </article>
             <img src="/assets/images/suit.webp" alt="Office Suit" className='w-full mt-10 sm:w-2/3 md:w-1/3' />

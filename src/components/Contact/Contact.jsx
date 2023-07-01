@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" className='pt-36'>
         <h1 className='text-3xl text-center font-bold text-primary 2xl:text-4xl' data-aos="fade-up"  data-aos-easing='ease-in-out' data-aos-once='true' data-aos-duration='1000'>Contact</h1>
         <div id="alert" className='hidden w-1/2 mx-auto mt-10 text-slate-900 text-lg text-center bg-primary rounded-lg px-4 py-2 border border-secondary shadow-gold-glow animate-shadow-pulse md:w-1/3 md:text-xl 2xl:text-2xl 2xl:px-6 2xl:py-4'>Your message has sent!</div>
-        <div className="container mt-10 sm:px-5 xl:px-16">
+        <div className="container mt-10 px-10 sm:px-5 xl:px-16">
             <form action="" method='post' className='flex flex-col'>
                 <label htmlFor="name" className='font-semibold mx-auto text-lg sm:text-xl lg:text-2xl lg:mt-5 lg:block 2xl:text-3xl' data-aos="fade-up"  data-aos-easing='ease-in-out' data-aos-once='true' data-aos-duration='1000'>Name</label>
                 <input type="text" name="name" id="name" className='form-input' placeholder="Your name..." autoComplete='off' required data-aos="fade-up"  data-aos-easing='ease-in-out' data-aos-once='true' data-aos-duration='1000' />
