@@ -43,7 +43,7 @@ const About = () => {
 							data-aos-once="true"
 							data-aos-duration="1000"
 						>
-							The first programming language that I learned is JavaScript and i
+							The first programming language that I learned was JavaScript and i
 							love that language so much. I'm also learning foreign languages
 							like English, Spanish, French, Chinese but i'm still not fluent
 							with those languages yet.
