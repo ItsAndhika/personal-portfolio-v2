@@ -29,7 +29,7 @@ const BackEnd = () => {
 			>
 				<img src={Node} alt="Node" className="w-12 mx-auto 2xl:w-20" />
 				<p className="text-lg font-semibold my-1">Node.js</p>
-				<p className="text-base font-medium">Beginner</p>
+				<p className="text-base font-medium">Intermediate</p>
 			</div>
 			<div
 				className="skill-card"
