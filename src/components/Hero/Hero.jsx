@@ -13,7 +13,10 @@ const Hero = () => {
 			>
 				<article className="w-full md:w-2/3">
 					<h1 className="font-bold text-3xl text-secondary mb-3 lg:text-4xl 2xl:text-5xl">
-						Hi, Call Me <span className="text-primary">Primananda Andhika</span>
+						Hi, Call Me{" "}
+						<span className="text-primary drop-shadow-text-glow">
+							Primananda Andhika
+						</span>
 					</h1>
 					<Typewriter
 						options={{

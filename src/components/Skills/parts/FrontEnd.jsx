@@ -122,7 +122,11 @@ const FrontEnd = () => {
 				data-aos-once="true"
 				data-aos-duration="1000"
 			>
-				<img src={Nextjs} alt="Next.js" className="w-10 mx-auto 2xl:w-16" />
+				<img
+					src={Nextjs}
+					alt="Next.js"
+					className="w-10 mx-auto color-white invert 2xl:w-16"
+				/>
 				<p className="text-lg font-semibold my-1">Next.js</p>
 				<p className="text-base font-medium">Beginner</p>
 			</div>
