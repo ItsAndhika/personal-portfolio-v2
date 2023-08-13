@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
 	return (
-		<section id="about" className="pt-36">
+		<section id="about" className="pt-36 2xl:pt-72">
 			<h1
 				className="text-3xl text-center font-bold text-primary 2xl:text-4xl"
 				data-aos="fade-up"
