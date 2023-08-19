@@ -10,6 +10,7 @@ module.exports = {
 			colors: {
 				primary: "hsl(38, 61%, 73%)",
 				secondary: "hsl(38, 61%, 55%)",
+				"zinc-semi-transparent": "rgb(24 24 27 / 0.9)",
 			},
 			boxShadow: {
 				"gold-glow": "0 0 30px 1px hsl(38, 61%, 73%)",

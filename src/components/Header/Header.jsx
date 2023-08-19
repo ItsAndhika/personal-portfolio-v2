@@ -54,9 +54,9 @@ const Header = () => {
 			<header
 				className={`${
 					isScrolled && "translate-y-12"
-				} fixed bottom-0 left-0 w-full z-10 bg-zinc-900 px-5 rounded-tl-2xl rounded-tr-rounded-tl-2xl transition-all duration-300 ease-in-out sm:hidden`}
+				} fixed bottom-0 left-0 w-full z-10 bg-zinc-semi-transparent backdrop-blur-sm px-5 rounded-tl-2xl rounded-tr-rounded-tl-2xl transition-all duration-300 ease-in-out sm:hidden`}
 			>
-				<div className="w-1/3 h-1 mx-auto bg-zinc-700 mb-5 mt-0.5 rounded-full relative top-0"></div>
+				<div className="w-1/4 h-1 mx-auto bg-zinc-700 mb-5 mt-0.5 rounded-full relative top-0"></div>
 				<nav className="container flex justify-around items-center mb-5">
 					<a href="#">
 						<IconHome2 className="transition duration-300 ease-in-out hover:text-primary focus:text-primary" />
