@@ -16,6 +16,8 @@ const Header = () => {
 		} else {
 			setIsScrolled(false);
 		}
+
+		lastScrollY = window.scrollY;
 	});
 
 	return (
