@@ -13,12 +13,14 @@ const Header = () => {
 	window.addEventListener("scroll", function () {
 		if (lastScrollY < window.scrollY) {
 			setIsScrolled(true);
-		}
-		if (window.scrollY <= 0) {
+		} else {
 			setIsScrolled(false);
 		}
 
 		lastScrollY = window.scrollY;
+		if (window.scrollY <= 0) {
+			setIsScrolled(false);
+		}
 	});
 
 	return (
