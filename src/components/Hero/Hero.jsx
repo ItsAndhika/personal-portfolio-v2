@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
 	return (
-		<section id="hero" className="pt-36 2xl:pt-72">
+		<section id="hero" className="pt-20 sm:pt-36 2xl:pt-72">
 			<div
 				className="container flex items-center flex-col px-10 sm:px-5 md:flex-row xl:px-16"
 				data-aos="fade-up"

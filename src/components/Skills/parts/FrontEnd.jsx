@@ -98,7 +98,7 @@ const FrontEnd = () => {
 			>
 				<img src={Reactjs} alt="React.js" className="w-10 mx-auto 2xl:w-16" />
 				<p className="text-lg font-semibold my-1">React.js</p>
-				<p className="text-base font-medium">Intermediate</p>
+				<p className="text-base font-medium">Beginner</p>
 			</div>
 			<div
 				className="skill-card"

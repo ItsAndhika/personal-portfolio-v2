@@ -7,15 +7,17 @@ import {
 } from "@tabler/icons-react";
 
 const Header = () => {
-	const [isActive, setIsActive] = useState(false);
+	const [isScrolled, setIsScrolled] = useState(false);
 
-	useEffect(() => {
-		if (isActive) {
-			document.body.classList.add("overflow-hidden");
+	let lastScrollY = window.scrollY;
+	window.addEventListener("scroll", function () {
+		if (lastScrollY < window.scrollY) {
+			setIsScrolled(true);
 		} else {
-			document.body.classList.remove("overflow-hidden");
+			setIsScrolled(false);
 		}
-	}, [isActive]);
+	});
+
 	return (
 		<>
 			<header className="hidden fixed w-screen max-w-screen py-5 z-10 bg-transparent backdrop-blur-md sm:flex md:py-10">
@@ -44,8 +46,13 @@ const Header = () => {
 					</nav>
 				</div>
 			</header>
-			<header className="fixed bottom-0 left-0 w-full z-10 backdrop-blur-md p-5 sm:hidden">
-				<nav className="container flex justify-around items-center">
+			<header
+				className={`${
+					isScrolled && "translate-y-12"
+				} fixed bottom-0 left-0 w-full z-10 bg-zinc-900 px-5 rounded-tl-2xl rounded-tr-rounded-tl-2xl transition-all duration-300 ease-in-out sm:hidden`}
+			>
+				<div className="w-1/3 h-1 mx-auto bg-zinc-700 mb-5 mt-0.5 rounded-full relative top-0"></div>
+				<nav className="container flex justify-around items-center mb-5">
 					<a href="#">
 						<IconHome2 className="transition duration-300 ease-in-out hover:text-primary focus:text-primary" />
 					</a>
