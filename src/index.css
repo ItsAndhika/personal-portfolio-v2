@@ -46,6 +46,19 @@
 	::-webkit-scrollbar-thumb {
 		@apply bg-primary;
 	}
+
+	.input-box .input:is(:valid, :focus) {
+		border-color: hsl(38, 61%, 55%);
+	}
+
+	.input-box .input:is(:valid, :focus) ~ span {
+		transform: translateY(-9px) translateX(10px);
+		padding: 0 8px;
+		font-size: 0.8rem;
+		background-color: black;
+		color: hsl(38, 61%, 55%);
+		border-radius: 3px;
+	}
 }
 
 @layer components {
@@ -58,12 +71,12 @@
 	}
 
 	.skill-card {
-		@apply w-8/12 h-max p-5 mx-auto text-center bg-neutral-900 border border-primary rounded-lg cursor-pointer transition duration-300 ease-in-out hover:shadow-gold-glow md:w-8/12;
+		@apply w-8/12 h-max p-5 mx-auto text-center bg-neutral-900 border border-primary rounded-lg cursor-pointer transition-all duration-1000 ease-in-out hover:shadow-gold-glow;
 	}
 
-	.form-input {
-		@apply w-9/12 mx-auto my-5 bg-transparent px-3 py-2 ring ring-secondary placeholder:text-slate-100 focus:outline-none focus:shadow-gold-glow lg:w-1/2 lg:h-12 2xl:h-14 2xl:placeholder:text-xl 2xl:text-xl;
-	}
+	/* .form-input {
+		@apply;
+	} */
 }
 
 @layer utilities {

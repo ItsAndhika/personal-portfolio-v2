@@ -23,83 +23,66 @@ const Contact = () => {
 					action=""
 					name="contact-form"
 					method="post"
-					className="flex flex-col"
+					className="flex flex-col mx-auto w-9/12 lg:w-1/2"
 				>
-					<label
-						htmlFor="name"
-						className="font-semibold mx-auto text-lg sm:text-xl lg:text-2xl lg:mt-5 lg:block 2xl:text-2xl"
+					<div
+						className="input-box w-full mx-auto my-5 flex justify-center relative input-container"
 						data-aos="fade-up"
 						data-aos-easing="ease-in-out"
 						data-aos-once="true"
 						data-aos-duration="1000"
 					>
-						Name
-					</label>
-					<input
-						type="text"
-						name="name"
-						id="name"
-						className="form-input"
-						placeholder="Your name..."
-						autoComplete="off"
-						required
-						data-aos="fade-up"
-						data-aos-easing="ease-in-out"
-						data-aos-once="true"
-						data-aos-duration="1000"
-					/>
-					<label
-						htmlFor="email"
-						className="font-semibold mx-auto text-lg sm:text-xl lg:text-2xl lg:mt-5 lg:block 2xl:text-2xl"
+						<input
+							type="text"
+							className="input w-full border-2 border-primary bg-transparent p-2 rounded-md"
+							name="name"
+							autoComplete="off"
+							required
+						/>
+						<span className="absolute left-1 p-2 pointer-events-none transition duration-300 ease-out">
+							Name
+						</span>
+					</div>
+					<div
+						className="input-box w-full mx-auto my-5 flex justify-center relative input-container"
 						data-aos="fade-up"
 						data-aos-easing="ease-in-out"
 						data-aos-once="true"
 						data-aos-duration="1000"
 					>
-						Email
-					</label>
-					<input
-						type="email"
-						name="email"
-						id="email"
-						className="form-input"
-						placeholder="Your email address..."
-						autoComplete="off"
-						required
-						data-aos="fade-up"
-						data-aos-easing="ease-in-out"
-						data-aos-once="true"
-						data-aos-duration="1000"
-					/>
-					<label
-						htmlFor="message"
-						className="font-semibold mx-auto text-lg sm:text-xl lg:text-2xl lg:mt-5 lg:block 2xl:text-2xl"
+						<input
+							type="email"
+							className="input w-full border-2 border-primary bg-transparent p-2 rounded-md"
+							name="email"
+							autoComplete="off"
+							required
+						/>
+						<span className="absolute left-1 p-2 pointer-events-none transition duration-300 ease-out">
+							Email
+						</span>
+					</div>
+					<div
+						className="input-box w-full mx-auto my-5 flex justify-center relative input-container"
 						data-aos="fade-up"
 						data-aos-easing="ease-in-out"
 						data-aos-once="true"
 						data-aos-duration="1000"
 					>
-						Message
-					</label>
-					<textarea
-						type="message"
-						name="message"
-						id="message"
-						className="form-input h-full"
-						placeholder="Your message to me..."
-						autoComplete="off"
-						rows={10}
-						cols={30}
-						required
-						data-aos="fade-up"
-						data-aos-easing="ease-in-out"
-						data-aos-once="true"
-						data-aos-duration="1000"
-					/>
+						<textarea
+							type="text"
+							className="input w-full border-2 border-primary bg-transparent p-2 rounded-md"
+							name="message"
+							autoComplete="off"
+							required
+						/>
+						<span className="absolute left-1 p-2 pointer-events-none transition duration-300 ease-out">
+							Message
+						</span>
+					</div>
 					<button
 						type="submit"
 						id="send"
-						className="w-max mx-auto mt-5 px-5 py-2 bg-primary text-slate-900 rounded-full shadow-gold-glow animate-shadow-pulse transition duration-300 ease-in-out hover:bg-secondary lg:px-5 lg:py-3"
+						className="w-max mx-auto mt-5 px-5 py-2 bg-primary text-slate-900 rounded-full shadow-gold-glow animate-shadow-pulse transition duration-300 ease-in-out hover:bg-secondary"
 						data-aos="fade-up"
 						data-aos-easing="ease-in-out"
 						data-aos-once="true"
@@ -108,7 +91,6 @@ const Contact = () => {
 							const scriptURL =
 								"https://script.google.com/macros/s/AKfycbxk5wFU7JdMUY-BoHAQeMZQ9gp3dl0U2-gMl0cdm1AYlC-Pf642oRXti-hwKmThRDs/exec";
 							const form = document.forms["contact-form"];
-							const sendButton = document.getElementById("send");
 							const alert = document.getElementById("alert");
 
 							form.addEventListener("submit", (e) => {
@@ -117,7 +99,6 @@ const Contact = () => {
 									.then((response) => {
 										alert.classList.toggle("hidden");
 										form.reset();
-										console.log("Success!", response);
 									})
 									.catch((error) => console.error("Error!", error.message));
 							});
