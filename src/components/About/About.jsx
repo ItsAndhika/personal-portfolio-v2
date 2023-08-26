@@ -18,6 +18,7 @@ const About = () => {
 						src="/assets/images/profile.webp"
 						alt="Profile"
 						className="rounded-2xl w-full shadow-gold-glow animate-shadow-pulse sm:w-96 md:w-1/3"
+						loading="lazy"
 						data-aos="fade-up"
 						data-aos-easing="ease-in-out"
 						data-aos-once="true"

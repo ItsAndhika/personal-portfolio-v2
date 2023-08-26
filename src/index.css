@@ -47,17 +47,17 @@
 		@apply bg-primary;
 	}
 
-	.input-box .input:is(:valid, :focus) {
-		border-color: hsl(38, 61%, 55%);
-	}
-
-	.input-box .input:is(:valid, :focus) ~ span {
+	.input-box span {
 		transform: translateY(-9px) translateX(10px);
 		padding: 0 8px;
 		font-size: 0.8rem;
 		background-color: black;
-		color: hsl(38, 61%, 55%);
 		border-radius: 3px;
+		color: hsl(38, 61%, 55%);
+	}
+
+	.input-box .input-form {
+		border-color: hsl(38, 61%, 55%);
 	}
 }
 

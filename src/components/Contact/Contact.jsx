@@ -26,7 +26,7 @@ const Contact = () => {
 					className="flex flex-col mx-auto w-9/12 lg:w-1/2"
 				>
 					<div
-						className="input-box w-full mx-auto my-5 flex justify-center relative input-container"
+						className="input-box w-full mx-auto my-5 flex justify-center relative"
 						data-aos="fade-up"
 						data-aos-easing="ease-in-out"
 						data-aos-once="true"
@@ -34,7 +34,7 @@ const Contact = () => {
 					>
 						<input
 							type="text"
-							className="input w-full border-2 border-primary bg-transparent p-2 rounded-md"
+							className="input-form w-full border-2 border-primary bg-transparent p-2 rounded-md"
 							name="name"
 							autoComplete="off"
 							required
@@ -44,7 +44,7 @@ const Contact = () => {
 						</span>
 					</div>
 					<div
-						className="input-box w-full mx-auto my-5 flex justify-center relative input-container"
+						className="input-box w-full mx-auto my-5 flex justify-center relative"
 						data-aos="fade-up"
 						data-aos-easing="ease-in-out"
 						data-aos-once="true"
@@ -52,7 +52,7 @@ const Contact = () => {
 					>
 						<input
 							type="email"
-							className="input w-full border-2 border-primary bg-transparent p-2 rounded-md"
+							className="input-form w-full border-2 border-primary bg-transparent p-2 rounded-md"
 							name="email"
 							autoComplete="off"
 							required
@@ -62,7 +62,7 @@ const Contact = () => {
 						</span>
 					</div>
 					<div
-						className="input-box w-full mx-auto my-5 flex justify-center relative input-container"
+						className="input-box w-full mx-auto my-5 flex justify-center relative"
 						data-aos="fade-up"
 						data-aos-easing="ease-in-out"
 						data-aos-once="true"
@@ -70,7 +70,7 @@ const Contact = () => {
 					>
 						<textarea
 							type="text"
-							className="input w-full border-2 border-primary bg-transparent p-2 rounded-md"
+							className="input-form w-full border-2 border-primary bg-transparent p-2 rounded-md"
 							name="message"
 							autoComplete="off"
 							required
