@@ -31,7 +31,7 @@ const FrontEnd = () => {
 			>
 				<img src={CSS} alt="CSS" className="w-14 mx-auto 2xl:w-20" />
 				<p className="text-lg font-semibold my-1">CSS</p>
-				<p className="text-base font-medium">Intermediate</p>
+				<p className="text-base font-medium">Advanced</p>
 			</div>
 			<div
 				className="skill-card"
@@ -46,7 +46,7 @@ const FrontEnd = () => {
 					className="w-10 mx-auto 2xl:w-16"
 				/>
 				<p className="text-lg font-semibold my-1">JavaScript</p>
-				<p className="text-base font-medium">Intermediate</p>
+				<p className="text-base font-medium">Advanced</p>
 			</div>
 			<div
 				className="skill-card"
@@ -98,7 +98,7 @@ const FrontEnd = () => {
 			>
 				<img src={Reactjs} alt="React.js" className="w-10 mx-auto 2xl:w-16" />
 				<p className="text-lg font-semibold my-1">React.js</p>
-				<p className="text-base font-medium">Beginner</p>
+				<p className="text-base font-medium">Intermediate</p>
 			</div>
 			<div
 				className="skill-card"

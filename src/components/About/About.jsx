@@ -35,7 +35,7 @@ const About = () => {
 							Hi there! My name is Primananda Andhika, i am from Central Java,
 							Indonesia. Currently i live in Purworejo with my family. I've been
 							programming since I was at class 8 Junior High School, and now i'm
-							15 years old.
+							16 years old.
 						</p>
 						<p
 							className="text-lg mt-10 font-open-sans max-w-sm md:mt-5 lg:max-w-md lg:text-xl lg:mt-10 xl:max-w-full xl:text-xl 2xl:text-2xl"
