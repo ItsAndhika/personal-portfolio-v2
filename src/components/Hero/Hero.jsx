@@ -35,7 +35,7 @@ const Hero = () => {
 						}}
 					/>
 					<p className="mt-3 mb-5 max-w-lg text-base lg:text-xl lg:mb-10 2xl:text-2xl">
-						A 15 year old Junior Web Developer who wants to be a better person
+						A 16 year old Junior Web Developer who wants to be a better person
 						everyday by learn anything that I like.
 					</p>
 					<a
